@@ -1,0 +1,10 @@
+Accept two int values from the user and return their product. If the product is greater than 1000, then return their sum
+
+n1=int(input('enter your number:' ))
+n2=int(input('enter your number:' ))
+a=n1*n2
+if a<1000:
+    print(a)
+else:
+    print(n1+n2)
+    
